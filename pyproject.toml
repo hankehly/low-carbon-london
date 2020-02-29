@@ -10,6 +10,7 @@ python = "^3.7"
 dask = "^2.11.0"
 pandas = "^1.0.1"
 numpy = "^1.18.1"
+jupyterlab = "^2.0.0"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
