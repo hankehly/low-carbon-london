@@ -16,6 +16,8 @@ xarray = "^0.15.0"
 bokeh = "^2.0.0"
 fastparquet = "^0.3.3"
 python-snappy = "^0.5.4"
+pydantic = "^1.4"
+tqdm = "^4.43.0"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
