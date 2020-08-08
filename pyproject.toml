@@ -3,25 +3,16 @@ name = "low-carbon-london"
 version = "0.1.0"
 description = ""
 authors = ["Hank Ehly <henry.ehly@gmail.com>"]
-license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.7"
-dask = {extras = ["dataframe", "distributed"], version = "^2.11.0"}
-pandas = "^1.0.1"
-numpy = "^1.18.1"
-jupyterlab = "^2.0.0"
-matplotlib = "^3.2.0"
-xarray = "^0.15.0"
-bokeh = "^2.0.0"
-fastparquet = "^0.3.3"
-python-snappy = "^0.5.4"
-pydantic = "^1.4"
-tqdm = "^4.43.0"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
-black = "^19.10b0"
-isort = "^4.3.21"
+pyspark = "^3.0.0"
+jupyterlab = "^2.2.4"
+pandas = "^1.1.0"
+numpy = "^1.19.1"
+matplotlib = "^3.3.0"
 
 [build-system]
 requires = ["poetry>=0.12"]

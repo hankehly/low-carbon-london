@@ -1,6 +1,7 @@
 .idea/
 .venv/
 data/
+!/**/.gitkeep
 .ipynb_checkpoints/
 __pycache__/
-dask-worker-space/
+.python-version
