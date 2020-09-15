@@ -6,6 +6,8 @@ authors = ["Hank Ehly <henry.ehly@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+PyWavelets = "^1.1.1"
+PyArrow = "^1.0.1"
 
 [tool.poetry.dev-dependencies]
 pyspark = "^3.0.0"
